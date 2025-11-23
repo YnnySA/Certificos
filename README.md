@@ -2,7 +2,8 @@
 
 Una aplicación web desarrollada con Streamlit para automatizar la gestión, creación y archivo de certificados de facturas de servicios de la construcción. Permite generar informes en Excel, gestionar facturas y mantener un registro centralizado y persistente de toda la documentación para facilitar análisis versátiles y realizar estimados certeros de las producciones.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tu-url-de-streamlit-app-aqui.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://generador-de-certificos-3vjv3il7vlh9p2nbjxjppz.streamlit.app/?page=crear)
+
 
 ## 📋 Características
 
@@ -69,3 +70,26 @@ Asegúrate de tener [Python](https://www.python.org/downloads/) instalado en tu 
 3.  Abre tu navegador web y ve a la dirección local que se mostrará en la terminal (usualmente `http://localhost:8501`).
 
 ## 📁 Estructura del Proyecto
+Generador-de-Certificados/
+├── certificos.py # Archivo principal de la aplicación de Streamlit
+├── certificados.db # Base de datos SQLite (se crea automáticamente)
+├── requirements.txt # Archivo con las dependencias del proyecto
+├── README.md # Este archivo
+├── logo.png # Logo de la empresa
+├── data/ # Directorio para plantillas y datos
+│ └── ejemplo.xlsx # Plantilla de Excel para generar informes
+└── certificados_generados/ # Directorio donde se guardan los certificados (se crea automáticamente)
+
+
+## ✍️ Autor
+
+**Yenny Sánchez Aguilar**
+
+*   [GitHub](https://github.com/YnnySA)
+*   [LinkedIn](https://www.linkedin.com/in/yenny-sánchez-aguilar-665b26242/)
+
+---
+
+
+
+
