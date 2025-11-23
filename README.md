@@ -64,21 +64,12 @@ Asegúrate de tener [Python](https://www.python.org/downloads/) instalado en tu 
 1.  Asegúrate de que los archivos `logo.png` y la carpeta `data/ejemplo.xlsx` están en la raíz del proyecto.
 2.  Ejecuta la aplicación con Streamlit:
     ```bash
-    streamlit run app.py
+    streamlit run certificos.py
     ```
 
 3.  Abre tu navegador web y ve a la dirección local que se mostrará en la terminal (usualmente `http://localhost:8501`).
 
-## 📁 Estructura del Proyecto
-Generador-de-Certificados/
-├── certificos.py # Archivo principal de la aplicación de Streamlit
-├── certificados.db # Base de datos SQLite (se crea automáticamente)
-├── requirements.txt # Archivo con las dependencias del proyecto
-├── README.md # Este archivo
-├── logo.png # Logo de la empresa
-├── data/ # Directorio para plantillas y datos
-│ └── ejemplo.xlsx # Plantilla de Excel para generar informes
-└── certificados_generados/ # Directorio donde se guardan los certificados (se crea automáticamente)
+
 
 
 ## ✍️ Autor
